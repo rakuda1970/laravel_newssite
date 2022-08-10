@@ -11,8 +11,19 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
         <!-- Font Awesome 4.7 -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap');
+
+      h1, h2, h3, h4, h5, strong {
+         font-family: 'Source Sans Pro', sans-serif;
+         font-weight: 700;
+      }
+
+      </style>
    </head>
 <body>
     <div id="app" class="container-fluid mx-0 px-0">
