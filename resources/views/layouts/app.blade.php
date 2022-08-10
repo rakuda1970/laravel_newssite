@@ -18,7 +18,7 @@
     <div id="app" class="container-fluid mx-0 px-0">
 
     <header class="p-3 text-bg-dark">
-         <div class="container">
+         <div class="container-fluid">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                <a data-bs-target="#collapseExample" data-toggle="collapse" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="btn btn-dark text-white p-0 mx-2 border border-light"><i style="font-size: 1.6em; margin: 0.25em 0.35em 0.25em 0.35em;" class="fa fa-bars" aria-hidden="true"></i></a>
                <a href="{{ url('/') }}" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -26,14 +26,14 @@
                </a>
                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                   <li><a href="#" class="nav-link px-2 text-white">US</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">World</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">Politics</a></li>
+                  <li><a href="#" class="nav-link px-2 text-white">International</a></li>
                   <li><a href="#" class="nav-link px-2 text-white">Business</a></li>
-                  <li><a href="#" class="nav-link px-2 text-white">More</a></li>
+                  <li><a href="#" class="nav-link px-2 text-white">Technolgy</a></li>
+                  <li><a href="#" class="nav-link px-2 text-white">Sports</a></li>
                </ul>
                <div class="text-end">
                <a href="#" style="text-decoration: none;" class="px-2 text-white">Audio</a> 
-               <a href="#" style="text-decoration: none;" class="px-2 text-white">Live TV</a>
+               <a href="#" style="text-decoration: none;" class="px-2 text-white">Video</a>
                <a data-bs-target="#collapseExample" data-toggle="collapse" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="text-white mx-2"><i class="fa fa-search" aria-hidden="true"></i></a>
                
                     @guest
@@ -67,12 +67,73 @@
             </div>
          </div>
       </header>
-      <div class="container-fluid py-3 collapse bg-dark text-white" id="collapseExample">
-         <hr />
-         <form class="col-10 mx-auto mb-3 ">
+      <div class="container-fluid py-3 collapse bg-dark text-white px-4" id="collapseExample">
+         
+         <form class="col-12 mx-auto mb-3 ">
           <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
         </form>
-
+        <div class="d-flex flex-row justify-content-start">
+         <div class="col font-weight-bold h4">Edition:</div>
+         <div class="col">US</div>
+         <div class="col">International</div>
+         <div class="col">Arabic</div>
+         <div class="col">Espa&ntilde;ol</div>
+         <div class="col">&nbsp;</div>
+         <div class="col">&nbsp;</div> 
+      </div>
+        <hr />
+        <div class="d-flex flex-row flex-wrap justify-content-start">
+         <div class="col mb-2">
+            <h4>US</h4>
+            <ul class="nav">
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Crime + Justice</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Energy + Environment</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Extreme Weather</a></li>
+            </ul>
+            
+            
+         </div>
+         <div class="col mb-2"><h4>World</h4>
+            <ul class="nav">
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Crime + Justice</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Energy + Environment</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Extreme Weather</a></li>
+            </ul>
+   </div>
+         <div class="col mb-2"><h4>Politics</h4>
+            <ul class="nav">
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Crime + Justice</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Energy + Environment</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Extreme Weather</a></li>
+            </ul>
+         </div>
+         <div class="col mb-2"><h4>Business</h4>
+            <ul class="nav">
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Crime + Justice</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Energy + Environment</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Extreme Weather</a></li>
+            </ul>
+         </div>
+         <div class="col mb-2"><h4>Opinion</h4>
+            <ul class="nav">
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Crime + Justice</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Energy + Environment</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Extreme Weather</a></li>
+            </ul></div>
+         <div class="col mb-2"><h4>Health</h4>
+            <ul class="nav">
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Crime + Justice</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Energy + Environment</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Extreme Weather</a></li>
+            </ul></div>
+         <div class="col mb-2"><h4>Entertainment</h4>
+            <ul class="nav">
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Crime + Justice</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Energy + Environment</a></li>
+               <li><a href="#" class="nav-link px-2 py-0 text-white">Extreme Weather</a></li>
+            </ul></div> 
+      </div>
+        <!--
          <div class="d-grid gap-3" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
             <div class="">
                <ul>
@@ -108,10 +169,11 @@
             </div>
             
          </div>
+-->
          <hr />
       </div>
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
     </div>
