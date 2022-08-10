@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid">
+<div class="container-fluid p-0">
 
-<div class="nav-scroller py-0 m-0">
+<div class="nav-scroller p-0 mb-4 border-bottom border-secondary">
     <nav class="nav d-flex justify-content-between">
       <a class="p-2 link-secondary" href="#">World</a>
       <a class="p-2 link-secondary" href="#">U.S.</a>
@@ -20,7 +20,6 @@
     </nav>
   </div>
 
-<hr />
   
     <div style="line-height: 0.9em;" class="row col-11 mx-auto">
         <div class="col-5">
